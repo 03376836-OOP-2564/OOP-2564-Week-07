@@ -75,7 +75,7 @@ namespace Week07_Lab1
 
 4. วาดไดอะแกรมของ type นี้ด้วย plantuml
 
-```
+``` puml
 @startuml
 class SByte
 {
