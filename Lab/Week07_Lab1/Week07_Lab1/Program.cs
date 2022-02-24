@@ -21,6 +21,11 @@ namespace Week07_Lab1
         bool bl;
         char ch;
         decimal de;
+
+        object ob;
+        string st;
+        dynamic dy;
+
         static void Main(string[] args)
         {
         }
