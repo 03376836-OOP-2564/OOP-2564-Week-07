@@ -106,3 +106,18 @@ class SByte
 <p align = "center"> <b>รูปที่ 4</b> diagram สำหรับ SByte </p>
 
 
+----------
+__หมายเหตุ__ 
+
+รูปแบบของการเขียนรายละเอียดของตัวแปรและ function ใน class diagram คือ
+```
+[ +|-|# ] name : < return-type >
+```
+เมื่อ
+```
++ คือการเข้าถึงแบบ public
+- คือการเข้าถึงแบบ private
+# คือการเข้าถึงแบบ protected
+```
+----------
+
