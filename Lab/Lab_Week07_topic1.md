@@ -62,6 +62,7 @@ namespace Week07_Lab1
     }
 }
 ```
+
 <p align = "center"> <b>รูปที่ 2 </b> Source code  ของ program.cs</p>
 
 
