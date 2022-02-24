@@ -10,7 +10,7 @@ namespace Week07_Lab2
     {
         static void Main(string[] args)
         {
-            sbyte sb = new sbyte();
+            sbyte sb = new sbyte();  // create new object
             byte bt = new byte();
             short sh;
             ushort ush;

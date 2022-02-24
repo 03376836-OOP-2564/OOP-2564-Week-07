@@ -22,7 +22,7 @@ namespace Week07_Lab2
     {
         static void Main(string[] args)
         {
-            sbyte sb = new sbyte();
+            sbyte sb = new sbyte();  // create new object
             byte bt = new byte();
             short sh;
             ushort ush;
@@ -56,8 +56,8 @@ namespace Week07_Lab2
 
 ```
 
+<p align = "center"> <img src ="./pictures/Lab2_Pic1.png"> </p>
 
-![ผลรันโปรแกรม](./pictures/Lab2_Pic1.png)
 
 <p align = "center"> <b>รูปที่ 1 </b> ผลที่ได้จากการรันโปรแกรม</p>
 
