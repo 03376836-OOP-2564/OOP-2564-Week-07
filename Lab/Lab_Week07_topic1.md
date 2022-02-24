@@ -100,7 +100,7 @@ class SByte
 
 เมื่อ render ด้วยโปรแกรม plantuml แล้วจะได้คลาสไดอะแกรมดังนี้
 
-![](./pictures/SByte.png)
+<p align = "center"> <img src ="./pictures/SByte.png"> </p>
 
 <p align = "center"> <b>รูปที่ 4</b> diagram สำหรับ SByte </p>
 
