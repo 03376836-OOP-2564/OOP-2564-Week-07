@@ -14,14 +14,81 @@ Predefined type ในภาษา C# มีอยู่ด้วยกัน 16
 
 ![](pictures/PredefinedType.png)
 
-รูปที่ 1 predefined type ในภาษา C#
+<p align = "center"> <b>รูปที่ 1</b>  predefined type ในภาษา C# </p>
 
 #### 2. การเข้าถึง predefined type โดยใช้ Visual Studio IDE ####
 เราสามารถอาศัยเครื่องมือใน text editor ของ Visual Studio เข้าถึงนิยามของ predefined type ได้โดยการกดปุ่ม F12 หรือ กดปุ่ม Ctrl บนคีย์บอร์ดแล้วใช้เมาส์คลิกที่ขื่อของ Type นั้นๆ
 
 ##### ลำดับขั้นการทดลอง #####
 
+1. สร้าง console project ใน Visual studio สมมติว่าตั้งชื่อ project เป็น `Week07_Lab1`
+2. เพิ่ม code เพื่อให้ไฟล์ `program.cs` มีเนื้อหาดังต่อไปนี้
 
 
+```cs
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Week07_Lab1
+{
+    class Program
+    {
+        sbyte sb;
+        byte bt;
+        short sh;
+        ushort ush;
+        int ii;
+        uint ui;
+        long lo;
+        ulong ul;
+        float fl;
+        double db;
+        bool bl;
+        char ch;
+        decimal de;
+        static void Main(string[] args)
+        {
+
+        }
+    }
+}
+```
+3. กดปุ่ม Ctrl แล้วใช้เมาส์คลิกที่ `sbyte` โปรแกรม Visual Studio จะเปิดไฟล์ใหม่ขึ้นมา ซื่งมือเนื้อหาของ `System.Sbyte`
+
+![รูปที่ 2](./pictures/Lab1_Pic2.png)
 
 
+จะสังเกตได้ว่าในบรรทัดที่ 11 มีการสร้าง type ของข้อมูลเป็น `struct` ซึ่งมีการ สืบทอดมาจาก `Interface` หลายชนิด (จะได้เรียนเรื่อง `interface` ในภายหลัง)
+
+ในบรรทัดที่ 18 และ 22 มีตัวแปรแบบ `public const SByte` จำนวนสองตัว ซึ่งทำหน้าที่บอกค่าสูงสุด (`MaxValue`) และค่าต่ำสุด  (`MinValue`) ที่สามารถเก็บในตัวแปรชนิดนี้ 
+
+จากค่า `MaxValue`  และ   `MinValue` ทำให้เรารู้ได้ว่าตัวแปรที่สร้างจาก type นี้มีขนาด 8 บิตแบบคิดเครื่องหมาย นั่นคือต้องใช้บิดซ้ายสุดจำนวน 1 บิตเป็นตัวเก็บเครื่องหมาย (ถ้าบิตนี้มีค่า 0 คือจำนวนเต็มบวก ถ้าเป็น 1 จะเป็นจำนวนเต็มลบ) ดังนั้นจึงสามารถมีข้อมูลได้ 7 บิต (แทนค่าเป็นเลขฐานสิบได้ 0-127)
+
+บรรทัดที่ 27 ถึง 338 จะเป็น behaviors ของชนิดข้อมูลนี้ ทำให้เรารู้ว่าสามารถทำอะไรกับชนิดข้อมูลนี้ได้บ้าง  
+
+ถ้าลองคลิ่ folding โดยการคลิกที่เครื่องหมาย [+] เราจะเห็นข้อความอธิบายอยู่ใน comment ดังรูปที่ 3
+
+![รูปที่ 3](./pictures/Lab1_Pic3.png)
+
+4. วาดไดอะแกรมของ type นี้ด้วย plantuml
+
+```
+@startuml
+class SByte
+{
+  + Maxvalue : SByte
+  + Minvalue : SByte
+
+  + Parse(...) : SByte 
+  + TryParse(...) : SByte
+  + CompareTo(...) : SByte
+  + Equals(...) : bool
+  + GatHashCode() : int
+  + GetTypeCode() : TypeCode
+  + ToString(...) : string
+}
+@enduml
+```

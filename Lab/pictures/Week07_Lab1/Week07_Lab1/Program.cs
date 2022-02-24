@@ -4,17 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyProgram // Declare a namespace.
+namespace Week07_Lab1
 {
-    class DeclarationOfTypeA { };   // Declare a type.
-    struct DeclarationOfTypeB { };  // Declare a type.
-    
-    
-    
-    class C                         // Declare a type.
+    class Program
     {
         sbyte sb;
-        byte by;
+        byte bt;
         short sh;
         ushort ush;
         int ii;
@@ -26,10 +21,8 @@ namespace MyProgram // Declare a namespace.
         bool bl;
         char ch;
         decimal de;
-
-        static void Main() 
-        { 
-            
+        static void Main(string[] args)
+        {
         }
     }
 }
