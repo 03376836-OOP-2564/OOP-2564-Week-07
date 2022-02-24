@@ -12,7 +12,8 @@
 Predefined type ในภาษา C# มีอยู่ด้วยกัน 16 ชนิด (สำหรับคนที่ update เป็น C# version 9 แล้ว จะมี 18 ชนิด) ดังรูปที่ 1
 
 
-![](pictures/PredefinedType.png)
+<p align = "center"> <img src ="./pictures/PredefinedType.png"> </p>
+
 
 <p align = "center"> <b>รูปที่ 1</b>  predefined type ในภาษา C# </p>
 
