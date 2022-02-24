@@ -56,6 +56,9 @@ namespace Week07_Lab1
     }
 }
 ```
+<p align = "center"> <b>รูปที่ 2 </b> Source code  ของ program.cs</p>
+
+
 3. กดปุ่ม Ctrl แล้วใช้เมาส์คลิกที่ `sbyte` โปรแกรม Visual Studio จะเปิดไฟล์ใหม่ขึ้นมา ซื่งมือเนื้อหาของ `System.Sbyte`
 
 ![รูปที่ 2](./pictures/Lab1_Pic2.png)
@@ -72,6 +75,8 @@ namespace Week07_Lab1
 ถ้าลองคลิ่ folding โดยการคลิกที่เครื่องหมาย [+] เราจะเห็นข้อความอธิบายอยู่ใน comment ดังรูปที่ 3
 
 ![รูปที่ 3](./pictures/Lab1_Pic3.png)
+
+<p align = "center"> <b>รูปที่ 3</b> คำอธิบาย method ของ SByte </p>
 
 4. วาดไดอะแกรมของ type นี้ด้วย plantuml
 
@@ -92,3 +97,11 @@ class SByte
 }
 @enduml
 ```
+
+เมื่อ render ด้วยโปรแกรม plantuml แล้วจะได้คลาสไดอะแกรมดังนี้
+
+![](./pictures/SByte.png)
+
+<p align = "center"> <b>รูปที่ 4</b> diagram สำหรับ SByte </p>
+
+
