@@ -61,6 +61,6 @@
 
 # Week07_Lab2 #
 
-![image](https://user-images.githubusercontent.com/92081920/156399817-3d9767a8-c3da-4dcd-b420-9cc36045f5e3.png)
+![image](https://user-images.githubusercontent.com/92081920/156403028-56985c5d-7983-469c-b409-9a00f345ff60.png)
 
-ข้อมูลชนิด bool, object, string และ dynamic ไม่สามารถดูได้
+ข้อมูลชนิด object, string และ dynamic ไม่สามารถดูได้
