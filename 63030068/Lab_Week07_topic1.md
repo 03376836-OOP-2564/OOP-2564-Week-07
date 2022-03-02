@@ -160,4 +160,20 @@ class Byte {
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156315737-1d114508-2ac4-4497-be13-e98cb71df886.png"> </p>
 
-
+# 2. short (Int16)
+``` puml
+@startuml
+class Int16 {
+    + Maxvalue : Int16
+    + Minvalue : Int16
+    + Parse(...) : Int16
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156316059-f16d6706-c010-464d-8756-348fd28388f7.png"> </p>
