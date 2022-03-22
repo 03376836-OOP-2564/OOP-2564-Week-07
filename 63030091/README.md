@@ -21,7 +21,7 @@ class SByte
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/sbyte.png"> </p>
+<p align = "center"> <img src ="./Pictures/sbyte.png"> </p>
 <p align = "center"> <b>รูปที่ 1</b> diagram สำหรับ sbyte </p>
 
 ## ข้อ 2 byte ##
@@ -44,7 +44,7 @@ class Byte
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/byte.png"> </p>
+<p align = "center"> <img src ="./Pictures/byte.png"> </p>
 <p align = "center"> <b>รูปที่ 2</b> diagram สำหรับ byte </p>
 
 ## ข้อ 3 short ##
@@ -67,7 +67,7 @@ class Int16
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/short.png"> </p>
+<p align = "center"> <img src ="./Pictures/short.png"> </p>
 <p align = "center"> <b>รูปที่ 3</b> diagram สำหรับ short </p>
 
 ## ข้อ 4 ushort ##
@@ -90,7 +90,7 @@ class UInt16
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/ushort.png"> </p>
+<p align = "center"> <img src ="./Pictures/ushort.png"> </p>
 <p align = "center"> <b>รูปที่ 4</b> diagram สำหรับ ushort </p>
 
 ## ข้อ 5 int ##
@@ -113,7 +113,7 @@ class Int32
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/int.png"> </p>
+<p align = "center"> <img src ="./Pictures/int.png"> </p>
 <p align = "center"> <b>รูปที่ 5</b> diagram สำหรับ int </p>
 
 ## ข้อ 6 uint ##
@@ -136,7 +136,7 @@ class UInt32
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/uint.png"> </p>
+<p align = "center"> <img src ="./Pictures/uint.png"> </p>
 <p align = "center"> <b>รูปที่ 6</b> diagram สำหรับ uint </p>
 
 ## ข้อ 7 long ##
@@ -159,7 +159,7 @@ class Int64
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/long.png"> </p>
+<p align = "center"> <img src ="./Pictures/long.png"> </p>
 <p align = "center"> <b>รูปที่ 7</b> diagram สำหรับ long </p>
 
 ## ข้อ 8 ulong ##
@@ -182,7 +182,7 @@ class UInt64
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/ulong.png"> </p>
+<p align = "center"> <img src ="./Pictures/ulong.png"> </p>
 <p align = "center"> <b>รูปที่ 8</b> diagram สำหรับ ulong </p>
 
 ## ข้อ 9 float ##
@@ -219,7 +219,7 @@ class Single
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/float.png"> </p>
+<p align = "center"> <img src ="./Pictures/float.png"> </p>
 <p align = "center"> <b>รูปที่ 9</b> diagram สำหรับ float </p>
 
 ## ข้อ 10 double ##
@@ -256,7 +256,7 @@ class Double
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/double.png"> </p>
+<p align = "center"> <img src ="./Pictures/double.png"> </p>
 <p align = "center"> <b>รูปที่ 10</b> diagram สำหรับ double </p>
 
 ## ข้อ 11 bool ##
@@ -280,7 +280,7 @@ class Boolean
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/bool.png"> </p>
+<p align = "center"> <img src ="./Pictures/bool.png"> </p>
 <p align = "center"> <b>รูปที่ 11</b> diagram สำหรับ bool </p>
 
 ## ข้อ 12 char ##
@@ -326,7 +326,7 @@ class Char
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/char.png"> </p>
+<p align = "center"> <img src ="./Pictures/char.png"> </p>
 <p align = "center"> <b>รูปที่ 12</b> diagram สำหรับ char </p>
 
 ## ข้อ 13 decimal ##
@@ -400,7 +400,7 @@ class Decimal
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/decimal.png"> </p>
+<p align = "center"> <img src ="./Pictures/decimal.png"> </p>
 <p align = "center"> <b>รูปที่ 13</b> diagram สำหรับ decimal </p>
 
 ## ข้อ 14 object ##
@@ -418,7 +418,7 @@ class Object
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/object.png"> </p>
+<p align = "center"> <img src ="./Pictures/object.png"> </p>
 <p align = "center"> <b>รูปที่ 14</b> diagram สำหรับ object </p>
 
 ## ข้อ 15 string ##
@@ -477,10 +477,10 @@ class String
 @enduml
 ```
 
-<p align = "center"> <img src ="./63030091/Pictures/string.png"> </p>
+<p align = "center"> <img src ="./Pictures/string.png"> </p>
 <p align = "center"> <b>รูปที่ 15</b> diagram สำหรับ string </p>
 
 # การทดลองสัปดาห์ที่ 7.2 #
 แสดงรายละเอียดของ predefined type
-<p align = "center"> <img src ="./63030091/Pictures/02_Lab.png"> </p>
+<p align = "center"> <img src ="./Pictures/02_Lab.png"> </p>
 <p align = "center"> <b>รูปแสดงผลที่ได้จากการรันโปรแกรม</b> </p>
