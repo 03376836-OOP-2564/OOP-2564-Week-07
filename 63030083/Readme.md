@@ -69,3 +69,6 @@
 
 
 # LAB 2 #
+
+![image](https://user-images.githubusercontent.com/92082798/162578554-c46c0132-fc95-4a84-865b-8f537acfe25f.png)
+
