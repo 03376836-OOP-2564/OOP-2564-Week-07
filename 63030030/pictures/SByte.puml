@@ -1,0 +1,15 @@
+@startuml
+class SByte
+{
+  + Maxvalue : SByte
+  + Minvalue : SByte
+
+  + Parse(...) : SByte 
+  + TryParse(...) : SByte
+  + CompareTo(...) : SByte
+  + Equals(...) : bool
+  + GatHashCode() : int
+  + GetTypeCode() : TypeCode
+  + ToString(...) : string
+}
+@enduml
