@@ -142,3 +142,20 @@ __หมายเหตุ__
 
 เขียนโค้ด plantuml สำหรับ type ชนิดอื่นๆ โดยใช้วิธีเดียวกันกับขั้นตอนที่ 3 ในชนิดข้อมูล SByte เพื่อสร้าง diagram สำหรับ predefined type ทุกชนิด
 
+# 1. Byte
+``` puml
+@startuml
+class Byte {
+    + MaxValue : Byte
+    + MinValue : Byte
+    + Parse(...) : Byte
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156315737-1d114508-2ac4-4497-be13-e98cb71df886.png"> </p>
