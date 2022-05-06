@@ -231,3 +231,22 @@ class UInt32 {
 @enduml
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167166963-8cc35e25-e5bf-4c05-a086-d8f9330f544e.png"> </p>
+
+# 6. long (Int64)
+``` puml
+@startuml
+class Int64 {
+    + Maxvalue : Int64
+    + Minvalue : Int64
+    + Parse(...) : Int64
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156317390-69123d35-7ae8-4af0-b5ba-7e5f77827f1d.png"> </p>
+
