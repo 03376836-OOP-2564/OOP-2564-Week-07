@@ -60,6 +60,7 @@ namespace Week07_Lab2
 
 
 <p align = "center"> <b>รูปที่ 1 </b> ผลที่ได้จากการรันโปรแกรม</p>
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167168368-21283fa2-d24d-447e-aae3-4427276a4ff7.png"> </p>
 
 ### Hint ###
 1. อาจจะต้องสร้าง object ด้วยคำสั่ง `new ___();`
