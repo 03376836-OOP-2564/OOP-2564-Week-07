@@ -177,3 +177,22 @@ class Int16 {
 @enduml
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167166450-93ea7d5f-2661-47f9-aa68-1e0316edebc2.png"> </p>
+
+# 3. ushort (UInt16)
+``` puml
+@startuml
+class UInt16 {
+    + Maxvalue : UInt16
+    + Minvalue : UInt16
+    + Parse(...) : UInt16
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167166658-a51eccf7-98cc-4b68-847f-02da5a74854f.png"> </p>
+
