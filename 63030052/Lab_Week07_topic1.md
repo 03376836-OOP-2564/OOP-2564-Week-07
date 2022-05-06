@@ -267,3 +267,29 @@ class Int64 {
 @enduml
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156317542-f22d8681-c4ac-4f89-89f2-cecb498aeb00.png"> </p>
+
+# 8. float (Single)
+``` puml
+@startuml
+class Single {
+    + MinValue : Single
+    + Epsilon : Single
+    + MaxValue : Single
+    + PositiveInfinity : Single
+    + NegativeInfinity : Single
+    + NaN : Single
+    + IsInfinity(...) : bool
+    + IsNaN(...) : bool
+    + IsNegativeInfinity(...) : bool
+    + IsPositiveInfinity(...) : bool
+    + Parse(...) : Single
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : ToString
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156318448-84fa25f7-f675-4c82-acba-e715c5d48a24.png"> </p>
