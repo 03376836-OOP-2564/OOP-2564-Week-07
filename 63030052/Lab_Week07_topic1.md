@@ -378,3 +378,57 @@ class Char {
 @enduml
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167167501-cc58260e-fe49-447e-acf0-ff65a3902b75.png"> </p>
+
+# 12. decimal
+``` puml
+@startuml
+class Decimal {
+    + Zero : Decimal
+    + One : Decimal
+    + MinusOne : Decimal
+    + MaxValue : Decimal
+    + MaxValue : Decimal
+    + int[] bits : Decimal
+    + float value : Decimal
+    + ulong value : Decimal
+    + double value : Decimal
+    + uint value : Decimal
+    + int value : Decimal
+    + int lo, int mid, int hi, bool isNegative, byte scale : Decimal
+    + Add(...) : Decimal
+    + Ceiling(...) : Decimal
+    + Ceiling(...) : Decimal
+    + Compare(...) : int
+    + Divide(...) : Decimal
+    + Equals(...) : bool
+    + Floor(...) : Decimal
+    + FromOACurrency(...) : Decimal
+    + GetBits(...) : int[]
+    + Multiply(...) : Decimal
+    + Negate(...) : Decimal
+    + Parse(...) : Decimal
+    + Remainder(...) : Decimal
+    + Round(...) : Decimal
+    + Subtract(...) : Decimal
+    + ToByte(...) : byte
+    + ToDouble(...) : double
+    + ToInt16(...) : short
+    + ToInt32(...) : int
+    + ToInt64(...) : long
+    + ToOACurrency(...) : long
+    + ToSByte(...) : sbyte
+    + ToSingle(...) : float
+    + ToUInt16(...) : ushort
+    + ToUInt32(...) : uint
+    + ToUInt64(...) : ulong
+    + Truncate(...) : Decimal
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156323722-d31cf27c-358c-42e4-80ab-f9ac734531aa.png"> </p>
