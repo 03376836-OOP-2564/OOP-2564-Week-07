@@ -447,3 +447,65 @@ class Object {
 @enduml
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92083472/167167746-7e370115-8b15-44b2-aea7-a09f2c59435b.png"> </p>
+
+# 14. string
+``` puml
+@startuml
+class String {
+    + Empty : String
+    + char[] value : String
+    + sbyte* value : String
+    + char* value : String
+    + char c, int count : String
+    + char[] value, int startIndex, int length : String
+    + sbyte* value, int startIndex, int length : String
+    + char* value, int startIndex, int length : String
+    + sbyte* value, int startIndex, int length, Encoding enc : String
+    + Length : int
+    + Compare(...) : int
+    + CompareOrdinal(...) : int
+    + Concat(...) : String
+    + Copy(...) : String
+    + Equals(...) : bool
+    + Format(...) : String
+    + Intern(...) : String
+    + IsInterned(...) : String
+    + IsNullOrEmpty(...) : bool
+    + IsNullOrWhiteSpace(...) : bool
+    + Join(...) : String
+    + Clone() : object
+    + CompareTo(...) : int
+    + Contains(...): bool
+    + CopyTo(...) : void
+    + EndsWith(...) : bool
+    + GetEnumerator() : CharEnumerator
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + IndexOf(...) : int
+    + IndexOfAny(...) : int
+    + Insert(...) : String
+    + IsNormalized() : bool
+    + LastIndexOf(...) : int
+    + LastIndexOfAny(...) : int
+    + Normalize() : String
+    + PadLeft(...) : String
+    + PadRight(...)  : String
+    + Remove(...) : String
+    + Replace(...) : String
+    + Split(...) : String[]
+    + StartsWith(...) : bool
+    + Substring(...) : String
+    + ToCharArray(...) : char
+    + ToLower(...) : String
+    + ToLowerInvariant() : String
+    + ToString(...) : String
+    + ToUpper(...) : String
+    + ToUpperInvariant() : String
+    + Trim() : String
+    + TrimEnd(...) : String
+    + TrimStart() : String
+
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156615087-912271b6-7dc2-4f89-9f9c-c0b335924947.png"> </p>
