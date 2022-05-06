@@ -250,3 +250,20 @@ class Int64 {
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156317390-69123d35-7ae8-4af0-b5ba-7e5f77827f1d.png"> </p>
 
+# 7. ulong (UInt64)
+``` puml
+@startuml
+class Int64 {
+    + Maxvalue : Int64
+    + Minvalue : Int64
+    + Parse(...) : Int64
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/50146617/156317542-f22d8681-c4ac-4f89-89f2-cecb498aeb00.png"> </p>
