@@ -1,0 +1,7 @@
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\bin\Debug\Week07_Lab2.exe.config
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\bin\Debug\Week07_Lab2.exe
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\bin\Debug\Week07_Lab2.pdb
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\obj\Debug\Week07_Lab2.csproj.AssemblyReference.cache
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\obj\Debug\Week07_Lab2.csproj.CoreCompileInputs.cache
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\obj\Debug\Week07_Lab2.exe
+D:\Works\ปี 2\เทอม 2\OBJECT-ORIENTED PROGRAMMING\work\OOP-2564-Week-07\63030035\Week07_Lab2\Week07_Lab2\obj\Debug\Week07_Lab2.pdb
