@@ -1,0 +1,34 @@
+@startmindmap
+*[#lightgreen] Predefined Types
+**[#LightPink] object
+**[#LightPink] string
+**[#LightPink] dynamic
+**[#LightCyan] Simple
+*** Numeric
+**** Integer
+***** 8-Bit
+******[#LightPink] byte
+******[#LightPink] sbyte
+***** 16-Bit
+******[#LightPink] short
+******[#LightPink] ushort
+***** 32-Bit
+******[#LightPink] int
+******[#LightPink] uint
+***** 64-Bit
+******[#LightPink] long
+******[#LightPink] ulong
+***** Platform dependent
+******[#LightSkyBlue] nint
+******[#LightSkyBlue] nuint
+
+**** Floating Point
+*****[#LightPink] decimal
+*****[#LightPink] float
+*****[#LightPink] double
+
+
+*** Non-numeric
+****[#LightPink] bool
+****[#LightPink] char
+@endmindmap
