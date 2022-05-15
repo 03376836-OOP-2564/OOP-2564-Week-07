@@ -61,4 +61,5 @@
 
 lab 2
 
+![image](https://user-images.githubusercontent.com/92082350/168485849-efe5b96c-e3aa-432d-8a5b-cb2926f836c8.png)
 
