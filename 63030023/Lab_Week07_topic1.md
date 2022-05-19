@@ -144,7 +144,7 @@ __หมายเหตุ__
 
 ## 1. Byte ##
 
-```
+``` uml
 @startuml
 class Byte {
     + MaxValue : Byte
@@ -157,5 +157,6 @@ class Byte {
     + GetTypeCode() : TypeCode
     + ToString(...) : string
 }
+@enduml
 ```
 
