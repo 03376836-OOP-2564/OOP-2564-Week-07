@@ -56,7 +56,9 @@ namespace Week07_Lab2
 
 ```
 
-<p align = "center"> <img src ="./pictures/Lab2_Pic1.png"> </p>
+<p align = "center"> 
+    
+![image](https://user-images.githubusercontent.com/92080550/169587324-570bdded-7415-48e1-8c3e-14bdece7ff01.png)
 
 
 <p align = "center"> <b>รูปที่ 1 </b> ผลที่ได้จากการรันโปรแกรม</p>
