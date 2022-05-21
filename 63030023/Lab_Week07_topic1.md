@@ -455,3 +455,20 @@ class Decimal {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648223-b8ed8512-e091-411f-b489-2424e9858cc7.png"> </p>
+
+## 13. Object ##
+
+``` puml
+@startuml
+class Object {
+    + Object
+    + Equals(...) : bool
+    + ReferenceEquals(...) : bool
+    + GetHashCode() : int
+    + GetType() : Type
+    + ToString() : string
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648323-79191473-7442-493d-84fd-060be0da00eb.png"> </p>
