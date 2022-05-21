@@ -308,3 +308,31 @@ class Single {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647950-d1ee1a87-f680-4573-9bbf-5ef741e365a7.png"> </p>
+
+## 9. double ##
+
+``` puml
+@startuml
+class Double {
+    + MinValue : Double
+    + MaxValue : Double
+    + Epsilon : Double
+    + NegativeInfinity : Double
+    + PositiveInfinity : Double
+    + NaN : Double
+    + IsInfinity(...) : bool
+    + IsNaN(...) : bool
+    + IsNegativeInfinity(...) : bool
+    + IsPositiveInfinity(...) : bool
+    + Parse(...) : Double
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : ToString
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648016-4bb36672-e51e-4530-b804-ccf60c8d6e7e.png"> </p>
