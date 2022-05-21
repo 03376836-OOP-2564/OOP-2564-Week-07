@@ -220,3 +220,23 @@ class Int32 {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647499-215fe0e6-e5e8-41e3-a5b8-92fe513dcb83.png"> </p>
+
+## 5. uint (UInt32) ##
+
+``` puml
+@startuml
+class UInt32 {
+    + Maxvalue : UInt32
+    + Minvalue : UInt32
+    + Parse(...) : UInt32
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647588-171f3bcf-f291-4b28-a754-d46d3e8ce2da.png"> </p>
