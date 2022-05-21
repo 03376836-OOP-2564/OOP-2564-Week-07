@@ -161,7 +161,7 @@ class Byte {
 ```
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647128-83e4ca56-e248-47b9-8dab-21fc0ad175ea.png"> </p>
 
-## 1.ushort (UInt16) ##
+## 2. short (Int16) ##
 
 ``` puml
 @startuml
@@ -180,3 +180,23 @@ class Int16 {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647295-160e8752-6d55-48ec-bbc8-7a99551372e5.png"> </p>
+
+## 3. ushort (UInt16) ##
+
+``` puml
+@startuml
+class UInt16 {
+    + Maxvalue : UInt16
+    + Minvalue : UInt16
+    + Parse(...) : UInt16
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647421-28224938-7240-4962-83e6-ab558d4c4c8b.png"> </p>
