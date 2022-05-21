@@ -261,7 +261,7 @@ class Int64 {
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647659-ca16e899-d759-462f-994c-0b33d021b5b4.png"> </p>
 
-## 7. ulong (UInt64)
+## 7. ulong (UInt64) ##
 
 ``` puml
 @startuml
@@ -280,3 +280,31 @@ class Int64 {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647745-9b35bbed-f96c-4251-ab1f-1ac16eb2b730.png"> </p>
+
+## 8. float (Single) ##
+
+``` puml
+@startuml
+class Single {
+    + Minvalue : Single
+    + Epsilon : Single
+    + MaxValue : Single
+    + PositiveInfinity : Single
+    + NegativeInfinity : Single
+    + NaN : Single
+    + IsInfinity(...) : bool
+    + IsNaN(...) : bool
+    + IsNegativeInfinity(...) : bool
+    + IsPositiveInfinity(...) : bool
+    + Parse(...) : Single
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : ToString
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169647950-d1ee1a87-f680-4573-9bbf-5ef741e365a7.png"> </p>
