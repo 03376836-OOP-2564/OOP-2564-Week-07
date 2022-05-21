@@ -144,7 +144,7 @@ __หมายเหตุ__
 
 ## 1. Byte ##
 
-``` uml
+``` puml
 @startuml
 class Byte {
     + MaxValue : Byte
