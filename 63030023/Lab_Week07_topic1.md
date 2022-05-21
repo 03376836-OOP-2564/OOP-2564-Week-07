@@ -356,3 +356,46 @@ class Boolean {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648107-335472e0-6ba7-4c5c-87ce-a5fba9cf1393.png"> </p>
+
+## 11. char ##
+
+``` puml
+@startuml
+class Char {
+    + MaxValue : Char
+    + MinValue : Char
+    + ConvertFromUtf32(...) : string
+    + ConvertToUtf32(...) : int
+    + GetNumericValue(...) : double
+    + GetUnicodeCategory(...) : UnicodeCategory
+    + IsControl(...) : bool
+    + IsDigit(...) : bool
+    + IsHighSurrogate(...) : bool
+    + IsLetter(...) : bool
+    + IsLetterOrDigit(...) : bool
+    + IsLower(...) : bool
+    + IsLowSurrogate(...) : bool
+    + IsNumber(...) : bool
+    + IsPunctuation(...) : bool
+    + IsSeparator(...) : bool
+    + IsSurrogate(...) : bool
+    + IsSurrogatePair(...) : bool
+    + IsSymbol(...) : bool
+    + IsUpper(...) : bool
+    + IsWhiteSpace(...) : bool
+    + Parse(...) : Char
+    + ToLower(...) : Char
+    + ToLowerInvariant(...) : Char
+    + ToString(...) : string
+    + ToUpper(...) : Char
+    + ToUpperInvariant(...) : Char
+    + TryParse(...) : bool
+    + CompareTo(...) : int
+    + Equals(...) : bool
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648160-6b724333-b875-403f-a685-32eb3e881886.png"> </p>
