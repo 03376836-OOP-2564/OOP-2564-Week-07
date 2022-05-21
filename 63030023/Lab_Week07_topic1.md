@@ -336,3 +336,23 @@ class Double {
 ```
 
 <p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648016-4bb36672-e51e-4530-b804-ccf60c8d6e7e.png"> </p>
+
+## 10. bool ##
+
+``` puml
+@startuml
+class Boolean {
+    + TrueString : string
+    + FalseString : string
+    + Parse(...) : Boolean
+    + TryParse(...) : Boolean
+    + CompareTo(...) : int
+    + Equals(...) : Boolean
+    + GetHashCode() : int
+    + GetTypeCode() : TypeCode
+    + ToString(...) : string
+}
+@enduml
+```
+
+<p align = "center"> <img src ="https://user-images.githubusercontent.com/92082676/169648107-335472e0-6ba7-4c5c-87ce-a5fba9cf1393.png"> </p>
